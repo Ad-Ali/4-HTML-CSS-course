@@ -1,20 +1,128 @@
-body {
-  background: rgb(255, 242, 225);
-}
+/* The original code I wrote which was giving a bug where the links in the dropdown menu where misplaced and "floating" wrong.
 
-nav ul {
+body {
+  background: rgb(248, 176, 149);
+  font-family: "Lato", Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
 }
 
-nav ul li {
-  list-style: none;
+nav {
+  height: 80px;
+  background-color: #f6f6f6;
+}
+
+nav ul {
   float: right;
-  width: 200px;
-  height: 40px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  display: flex;
+  float: left;
+  width: 100px;
+  height: 80px;
   background-color: #f6f6f6;
   opacity: 0.9;
-  line-height: 40px;
+  line-height: 20px;
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li:last-of-type {
+  width: 150px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #0a3641;
+  display: block;
+}
+
+nav ul li ul li {
+  display: none;
+}
+
+nav ul li:hover ul li {
+  display: block;
+}
+*/
+
+/*The resources used to learn how to make a dropdown menu which did not result in a buggy placement of the links in the dropdown:
+
+https://css-tricks.com/solved-with-css-dropdown-menus/
+
+https://www.youtube.com/watch?v=gEbG3xyQoxA */
+
+body {
+  background: #ffeadb;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  height: 54.4px;
+  background-color: #f6f6f6;
+}
+
+nav ul {
+  float: right;
+  background: #f6f6f6;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  font-size: 1.2rem;
+}
+
+nav li {
+  color: #fff;
+  background: #f6f6f6;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+
+nav li a {
+  color: #0a3641;
+}
+
+nav li:hover {
+  background: #e7eaea;
+  cursor: pointer;
+}
+
+nav ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+nav ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+nav ul li ul li {
+  clear: both;
+  width: 100%;
 }
