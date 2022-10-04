@@ -138,9 +138,9 @@ nav ul li ul li {
 https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-fill-entire-screen-on-mobile-without-ruining-q */
 
 .hero {
-  height: 100vh;
+  height: 100vw;
   width: 100vw;
-  background-image: url(/images/hero/pexels-till-daling-12581576\ \(1\).jpg)
+  background-image: url(/images/hero/pexels-till-daling-12581576.jpg);
   background-size: cover;
   background-position: center;
 }
