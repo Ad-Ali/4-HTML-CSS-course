@@ -137,7 +137,7 @@ nav ul li ul li {
 
 https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-fill-entire-screen-on-mobile-without-ruining-q */
 
-/*I stubled upon an issue in directing to the image in the local folder because I had downloaded the image twice and it had a (1)at the end of the file name. After removin git the directing worked.*/
+/*I stubled upon an issue in directing to the image in the local folder because I had downloaded the image twice and it had a (1)at the end of the file name. After removing git the directing worked.*/
 
 .hero {
   height: 100vw;
