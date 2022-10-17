@@ -146,7 +146,7 @@ https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-f
 
 .hero {
   height: 100vw;
-  width: 100vw;
+  width: 100%;
   background-image: url(/images/hero/pexels-till-daling-12581576.jpg);
   background-size: cover;
   background-position: center;
