@@ -58,6 +58,11 @@ https://css-tricks.com/solved-with-css-dropdown-menus/
 
 https://www.youtube.com/watch?v=gEbG3xyQoxA */
 
+@font-face {
+  font-family: "Lato";
+  src: url("http://fonts.googleapis.com/css?family=Lato:400,700");
+}
+
 body {
   background: #ffeadb;
   font-family: "Lato", Arial, Helvetica, sans-serif;
