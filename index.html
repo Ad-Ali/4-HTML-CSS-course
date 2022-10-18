@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Rainydays</title>
+    <meta charset="UTF-8" />
     <meta
       name="description"
       content="This is the home of Rainydays, pushing the comfort zone & keeping you dry since 1995."
@@ -11,35 +12,48 @@
     <link
       type="text/css"
       href="http://fonts.googleapis.com/css?family=Lato:400,700"
+      rel="stylesheet"
     />
   </head>
   <body>
     <header>
-      <nav role="navigation">
+      <nav class="navbar" role="navigation">
         <a href="index.html">
           <img
             class="logo"
             alt="RainyDays_Logo"
             src="images\logo\RainyDays_Logo.png"
         /></a>
-        <ul>
-          <li>
-            <a href="#">Shop</a>
-            <ul>
-              <li><a href="#">Women</a></li>
-              <li><a href="#">Men</a></li>
-              <li><a href="#">New Collection</a></li>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Shop</a>
+            <ul class="hover-menu">
+              <li class="hover-menu-item"><a href="#">Women</a></li>
+              <li class="hover-menu-item"><a href="#">Men</a></li>
+              <li class="hover-menu-item"><a href="#">New Collection</a></li>
             </ul>
           </li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Shopping Bag</a></li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Shopping Bag</a>
+          </li>
         </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
       </nav>
     </header>
     <main>
       <div class="hero"></div>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
   </body>
 </html>

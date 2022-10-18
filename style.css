@@ -139,10 +139,9 @@ nav ul li ul li {
 }
 
 /* Used this resource to figure out how to make the hero centered:
+https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-fill-entire-screen-on-mobile-without-ruining-q 
 
-https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-fill-entire-screen-on-mobile-without-ruining-q */
-
-/*I stubled upon an issue in directing to the image in the local folder because I had downloaded the image twice and it had a (1)at the end of the file name. After removing git the directing worked.*/
+I stubled upon an issue in directing to the image in the local folder because I had downloaded the image twice and it had a (1)at the end of the file name. After removing git the directing worked.*/
 
 .hero {
   height: 100vw;
@@ -150,4 +149,84 @@ https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-f
   background-image: url(/images/hero/pexels-till-daling-12581576.jpg);
   background-size: cover;
   background-position: center;
+}
+
+/* Used this resource to figure out how to make the hero centered:
+
+
+*/
+
+.navbar {
+  min-height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #0a3641;
+}
+
+@media (max-width: 767px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+}
+
+@media (max-width: 767px) {
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #e7eaea;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+}
+
+.nav-link {
+  margin: 16px 0;
+}
+
+.nav-menu.active {
+  right: 0;
+  background-color: #f6f6f6;
+}
+
+@media (max-width: 767px) {
+  .hover-menu-item {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+  }
 }
