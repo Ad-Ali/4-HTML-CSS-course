@@ -304,9 +304,6 @@ nav ul li ul li {
 }
 
 @media screen and (max-width: 378px) {
-  .hero-description {
-    position: relative;
-  }
   .hero-description-first-p {
     font-size: 10px;
   }
