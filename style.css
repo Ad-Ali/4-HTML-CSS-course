@@ -191,7 +191,7 @@ nav ul li ul li {
 }
 
 .hero-image {
-  height: 60vw;
+  height: 50vw;
   width: 100%;
   background-image: url(/images/hero/pexels-till-daling-1920-1080.jpg);
   background-size: cover;
@@ -214,6 +214,35 @@ nav ul li ul li {
   bottom: 20px;
 }
 
+.hero-CTA {
+  position: absolute;
+  bottom: 5%;
+  left: 40%;
+  text-align: center;
+  color: rgb(228, 228, 228);
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.hero-CTA-text {
+  text-transform: uppercase;
+}
+
+.hero-CTA-button {
+  font-weight: 400;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.hero-CTA a {
+  text-decoration: none;
+  color: rgb(228, 228, 228);
+}
+
+.hero-CTA-button:hover {
+  background-color: #2d2f2f;
+}
+
 @media screen and (max-width: 9999px) {
   .hero-description-first-p {
     font-size: 49px;
@@ -221,6 +250,9 @@ nav ul li ul li {
   .hero-description-second-p {
     font-size: 72px;
     bottom: 60px;
+  }
+  .hero-CTA {
+    left: 39%;
   }
 }
 
@@ -232,6 +264,9 @@ nav ul li ul li {
     font-size: 57px;
     bottom: 50px;
   }
+  .hero-CTA {
+    font-size: 25px;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -241,6 +276,9 @@ nav ul li ul li {
   .hero-description-second-p {
     font-size: 57px;
     bottom: 50px;
+  }
+  .hero-CTA {
+    font-size: 20px;
   }
 }
 
@@ -255,6 +293,10 @@ nav ul li ul li {
   .hero-description-second-p {
     font-size: 46px;
     bottom: 40px;
+  }
+  .hero-CTA {
+    font-size: 17px;
+    left: 37%;
   }
 }
 
@@ -286,40 +328,60 @@ nav ul li ul li {
 
 @media screen and (max-width: 678px) {
   .hero-description-first-p {
-    font-size: 18px;
+    font-size: 16px;
   }
   .hero-description-second-p {
-    font-size: 26.4px;
+    font-size: 23.4px;
+    bottom: 22px;
+  }
+  .hero-CTA {
+    font-size: 15px;
+    left: 35%;
   }
 }
 
 @media screen and (max-width: 578px) {
   .hero-description-first-p {
-    font-size: 15px;
+    font-size: 13px;
   }
   .hero-description-second-p {
-    font-size: 22px;
+    font-size: 19px;
     bottom: 22px;
+  }
+  .hero-CTA {
+    font-size: 13px;
+    left: 35%;
+  }
+  .hero-CTA-button {
+    border: 1px solid white;
   }
 }
 
 @media screen and (max-width: 478px) {
   .hero-description-first-p {
-    font-size: 12px;
+    font-size: 10px;
   }
   .hero-description-second-p {
-    font-size: 17.5px;
-    bottom: 18px;
+    font-size: 14.5px;
+    bottom: 15px;
+  }
+  .hero-CTA {
+    font-size: 11px;
+    left: 32%;
   }
 }
 
 @media screen and (max-width: 378px) {
   .hero-description-first-p {
-    font-size: 10px;
+    font-size: 9px;
   }
   .hero-description-second-p {
-    font-size: 15px;
+    font-size: 13px;
     bottom: 15px;
+  }
+  .hero-CTA {
+    font-size: 9px;
+    left: 30%;
   }
 }
 
@@ -327,6 +389,42 @@ nav ul li ul li {
   .hero-description {
     display: none;
   }
+  .hero-CTA {
+    font-size: 8px;
+    left: 30%;
+  }
 }
 
 /* End Hero */
+
+/* Women and Men jacket choice */
+
+.women-and-men-jackets {
+  display: flex;
+}
+
+.women-jacket-choice {
+  width: 50%;
+  flex: 1;
+}
+
+.men-jacket-choice {
+  width: 50%;
+  flex: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .women-and-men-jackets {
+    display: block;
+  }
+  .women-jacket-choice {
+    display: block;
+    width: 100%;
+  }
+
+  .men-jacket-choice {
+    display: block;
+    width: 100%;
+  }
+}
+/* End Women and Men jacket choice */
