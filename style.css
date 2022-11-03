@@ -245,61 +245,71 @@ nav ul li ul li {
 }
 
 @media screen and (max-width: 1024px) {
+  .hero-image {
+    height: 70vw;
+  }
   .hero-description-first-p {
-    font-size: 35px;
+    font-size: 31.3px;
+    bottom: 20px;
   }
   .hero-description-second-p {
-    font-size: 47px;
+    font-size: 46px;
     bottom: 40px;
   }
 }
 
 @media screen and (max-width: 924px) {
+  .hero-image {
+    height: 80vw;
+  }
   .hero-description-first-p {
-    font-size: 30px;
+    font-size: 25.3px;
   }
   .hero-description-second-p {
-    font-size: 44px;
+    font-size: 37px;
     bottom: 40px;
   }
 }
 
 @media screen and (max-width: 768px) {
+  .hero-image {
+    height: 90vw;
+  }
   .hero-description-first-p {
-    font-size: 25px;
+    font-size: 19.6px;
   }
   .hero-description-second-p {
-    font-size: 37px;
+    font-size: 29px;
     bottom: 30px;
   }
 }
 
 @media screen and (max-width: 678px) {
   .hero-description-first-p {
-    font-size: 20px;
+    font-size: 18px;
   }
   .hero-description-second-p {
-    font-size: 29px;
+    font-size: 26.4px;
   }
 }
 
 @media screen and (max-width: 578px) {
-  .hero-description-first-p {
-    font-size: 17px;
-  }
-  .hero-description-second-p {
-    font-size: 25px;
-    bottom: 22px;
-  }
-}
-
-@media screen and (max-width: 478px) {
   .hero-description-first-p {
     font-size: 15px;
   }
   .hero-description-second-p {
     font-size: 22px;
     bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .hero-description-first-p {
+    font-size: 12px;
+  }
+  .hero-description-second-p {
+    font-size: 17.5px;
+    bottom: 18px;
   }
 }
 
