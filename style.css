@@ -229,7 +229,7 @@ nav ul li ul li {
 }
 
 .hero-CTA-button {
-  font-weight: 400;
+  font-weight: 600;
   border: 2px solid white;
   border-radius: 5px;
   background-color: rgb(228, 228, 228);
@@ -367,7 +367,6 @@ nav ul li ul li {
     bottom: 15px;
   }
   .hero-CTA {
-    font-size: 11px;
     left: 32%;
   }
 }
@@ -381,7 +380,6 @@ nav ul li ul li {
     bottom: 15px;
   }
   .hero-CTA {
-    font-size: 9px;
     left: 30%;
   }
 }
@@ -391,8 +389,10 @@ nav ul li ul li {
     display: none;
   }
   .hero-CTA {
-    font-size: 8px;
-    left: 30%;
+    left: 18%;
+  }
+  .hero-CTA-text {
+    color: #0a364100;
   }
 }
 
