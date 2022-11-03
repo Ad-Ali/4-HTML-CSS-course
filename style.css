@@ -402,6 +402,8 @@ nav ul li ul li {
 
 .women-and-men-jackets {
   display: flex;
+  position: absolute;
+  width: 100%;
 }
 
 .women-jacket-choice {
@@ -428,4 +430,188 @@ nav ul li ul li {
     width: 100%;
   }
 }
+
+.CTA {
+  position: absolute;
+  bottom: 75%;
+  left: 5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.CTA-button {
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 228);
+}
+
+.CTA a {
+  text-decoration: none;
+  color: #0a3641;
+}
+
+.CTA-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 9999px) {
+  .CTA {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .CTA {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .CTA {
+    font-size: 20px;
+    bottom: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .CTA {
+    font-size: 17px;
+    bottom: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .CTA {
+    bottom: 90%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .CTA {
+    font-size: 13px;
+  }
+  .CTA-button {
+    border: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .CTA {
+    left: 5%;
+    bottom: 88%;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .CTA {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .CTA {
+    left: 29%;
+    bottom: 65%;
+  }
+  .CTA-text {
+    color: #0a364100;
+  }
+}
+
+/* MEN's CTA */
+
+.CTA2 {
+  position: absolute;
+  bottom: 75%;
+  left: 5%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.CTA2-button {
+  font-weight: 600;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: rgb(228, 228, 228);
+}
+
+.CTA2 a {
+  text-decoration: none;
+  color: #0a3641;
+}
+
+.CTA2-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 9999px) {
+  .CTA2 {
+    left: 55%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .CTA2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .CTA2 {
+    font-size: 20px;
+    bottom: 75%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .CTA2 {
+    font-size: 17px;
+    bottom: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .CTA2 {
+    bottom: 40%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .CTA2 {
+    font-size: 13px;
+  }
+  .CTA2-button {
+    border: 1px solid white;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .CTA2 {
+    left: 5%;
+    bottom: 38%;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  .CTA2 {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .CTA2 {
+    left: 30%;
+    bottom: 15%;
+  }
+  .CTA2-text {
+    color: #0a364100;
+  }
+}
+
 /* End Women and Men jacket choice */
