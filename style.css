@@ -323,4 +323,10 @@ nav ul li ul li {
   }
 }
 
+@media screen and (max-width: 330px) {
+  .hero-description {
+    display: none;
+  }
+}
+
 /* End Hero */
