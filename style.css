@@ -232,15 +232,16 @@ nav ul li ul li {
   font-weight: 400;
   border: 2px solid white;
   border-radius: 5px;
+  background-color: rgb(228, 228, 228);
 }
 
 .hero-CTA a {
   text-decoration: none;
-  color: rgb(228, 228, 228);
+  color: #0a3641;
 }
 
 .hero-CTA-button:hover {
-  background-color: #2d2f2f;
+  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 9999px) {
