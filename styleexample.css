@@ -1,5 +1,12 @@
 body {
   font-size: larger;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: white;
+  display: block;
+}
+
+body {
+  font-size: larger;
   font-family: "Courier New", Courier, monospace;
   background: white;
   display: block;

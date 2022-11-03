@@ -51,7 +51,6 @@ nav ul li:hover ul li {
   display: block;
 }
 */
-
 /*The resources used to learn how to make a dropdown menu which did not result in a buggy placement of the links in the dropdown:
 
 https://css-tricks.com/solved-with-css-dropdown-menus/
@@ -67,7 +66,7 @@ body {
   background: #ffeadb;
   font-family: "Lato", Arial, Helvetica, sans-serif;
   margin: 0;
-  padding: 0;
+  padding: 0;s
 }
 
 a {
