@@ -402,7 +402,7 @@ nav ul li ul li {
 
 .women-and-men-jackets {
   display: flex;
-  position: absolute;
+  position: relative;
   width: 100%;
 }
 
@@ -615,3 +615,119 @@ nav ul li ul li {
 }
 
 /* End Women and Men jacket choice */
+
+/* Fixed size container */
+
+.fixed-size-container {
+  background-color: #ffffff;
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fixed-size-items {
+  width: 300px;
+  height: 450px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin: 0 10px 30px 10px;
+  display: block;
+  font-size: 20px;
+}
+
+.fixed-size-pic {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/green-pocket-delux.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-2 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/puffy-white-waffle.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-3 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/blue-horizon.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-4 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/zipped-ready.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-5 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/red-rider-hood.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-6 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/urban-organizer.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-7 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/jumping-jacker.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-8 {
+  width: 300px;
+  height: 350px;
+  background-image: url(/images/jacket-images/down-looker.jpg);
+  margin: 0 auto;
+}
+
+.pic-text {
+  font-weight: bold;
+  margin: 5px 0 5px 0;
+}
+
+.price {
+  margin: 5px 0 5px 0;
+}
+
+.color-picker {
+  margin: 5px 0 8px 0;
+}
+
+.shop-button {
+  padding-left: 10px;
+}
+
+.buy-button {
+  display: inline;
+  border: rgba(10, 54, 65, 0.7) solid 2px;
+  padding: 0px 20px 2px 20px;
+  margin: 10px 10px;
+  position: relative;
+  bottom: 7.5px;
+  text-decoration: none;
+}
+
+.buy-button a {
+  text-decoration: none;
+  color: rgba(10, 54, 65, 0.7);
+}
+
+.color-price-row {
+  vertical-align: middle;
+}
+
+/* End fixed size container */
