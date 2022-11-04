@@ -231,7 +231,7 @@ nav ul li ul li {
 .hero-CTA-button {
   font-weight: 600;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: rgb(228, 228, 228);
 }
 
@@ -444,7 +444,7 @@ nav ul li ul li {
 .CTA-button {
   font-weight: 600;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: rgb(228, 228, 228);
 }
 
@@ -536,7 +536,7 @@ nav ul li ul li {
 .CTA2-button {
   font-weight: 600;
   border: 2px solid white;
-  border-radius: 5px;
+  border-radius: 2px;
   background-color: rgb(228, 228, 228);
 }
 
@@ -615,6 +615,26 @@ nav ul li ul li {
 }
 
 /* End Women and Men jacket choice */
+
+/* Best Sellers */
+
+.best-sellers-text {
+  background-color: #ffffff;
+  color: #0a3641;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0 0 0;
+}
+
+@media screen and (max-width: 330px) {
+  .best-sellers-text {
+    display: none;
+  }
+}
+
+/* End Best Sellers */
 
 /* Fixed size container */
 
@@ -707,13 +727,10 @@ nav ul li ul li {
   margin: 5px 0 8px 0;
 }
 
-.shop-button {
-  padding-left: 10px;
-}
-
 .buy-button {
   display: inline;
   border: rgba(10, 54, 65, 0.7) solid 2px;
+  border-radius: 2px;
   padding: 0px 20px 2px 20px;
   margin: 10px 10px;
   position: relative;
@@ -728,6 +745,12 @@ nav ul li ul li {
 
 .color-price-row {
   vertical-align: middle;
+}
+
+@media screen and (max-width: 330px) {
+  .fixed-size-container {
+    display: none;
+  }
 }
 
 /* End fixed size container */
