@@ -754,3 +754,108 @@ nav ul li ul li {
 }
 
 /* End fixed size container */
+
+/* Newsletter */
+
+.newsletter {
+  display: flex;
+  height: 450px;
+  background-color: rgb(225, 222, 216);
+}
+
+.newsletter-box {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  margin: auto;
+  background-color: white;
+  padding: 20px 100px 0px 100px;
+}
+
+.newsletter-pic {
+  width: 200px;
+  height: 15%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.newsletter-logo {
+  width: 100px;
+}
+
+.newsletter form {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 10%;
+}
+
+.newsletter-description {
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.newsletter-description-1 {
+  font-weight: 1000;
+  margin-bottom: 3%;
+  font-size: 28px;
+  color: rgba(10, 54, 65, 1);
+}
+
+.newsletter-description-2 {
+  text-align: center;
+  margin: 0 5% 3% 5%;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(10, 54, 65, 0.7);
+}
+
+.newsletter-description-3 {
+  text-align: center;
+  margin: 0 5%;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(10, 54, 65, 0.4);
+  margin-bottom: 5%;
+}
+
+.newsletter label {
+  display: none;
+}
+
+.read-more-text {
+  width: 200px;
+  display: flex;
+  margin: auto;
+  padding-bottom: 3%;
+  text-align: center;
+  color: rgba(10, 54, 65, 0.4);
+}
+
+.read-more-text p {
+  font-size: 16px;
+}
+
+.bold-link {
+  text-decoration: none;
+  color: rgba(10, 54, 65, 0.7);
+  font-weight: 800;
+}
+
+.newsletter input {
+  background-color: rgb(225, 222, 216);
+  padding: 10px;
+  font-weight: 700;
+  color: rgba(10, 54, 65, 1);
+  border-color: rgba(10, 54, 65, 0.5);
+}
+
+.input-box {
+  border: none;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+/* End Newsletter */
