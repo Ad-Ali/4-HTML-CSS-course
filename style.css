@@ -747,7 +747,7 @@ nav ul li ul li {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 1304.4px) {
+@media screen and (max-width: 1300px) {
   .fixed-size-items:nth-child(8),
   .fixed-size-items:nth-child(7) {
     display: none;
@@ -937,3 +937,45 @@ nav ul li ul li {
 }
 
 /* End Newsletter */
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  height: 450px;
+  background-color: white;
+}
+
+.footer-links {
+  display: flex;
+  height: 225px;
+  position: relative;
+  width: 100%;
+  margin: 20px 100px 0 100px;
+}
+
+.shop-section {
+  width: 25%;
+  flex: 1;
+}
+
+.info-section {
+  width: 25%;
+  flex: 1;
+}
+
+.help-section {
+  width: 25%;
+  flex: 1;
+}
+
+.member-section {
+  width: 25%;
+  flex: 1;
+}
+
+.social-links {
+  height: 225px;
+}
+
+/*  End Footer */
