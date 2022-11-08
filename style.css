@@ -941,17 +941,25 @@ nav ul li ul li {
 /* Footer */
 
 .footer-container {
-  display: flex;
   height: 450px;
   background-color: white;
 }
 
-.footer-links {
+/* THIS NEEDS FIXIN' */
+/* .footer-links {
   display: flex;
   height: 225px;
   position: relative;
   width: 100%;
   margin: 20px 100px 0 100px;
+} */
+
+.footer-links h3 {
+  color: rgba(10, 54, 65, 1);
+}
+
+.footer-links p {
+  font-size: 15px;
 }
 
 .shop-section {
@@ -976,6 +984,50 @@ nav ul li ul li {
 
 .social-links {
   height: 225px;
+}
+
+@media screen and (max-width: 850px) {
+  .footer-links {
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .shop-section {
+    width: auto;
+    margin: auto;
+  }
+  .info-section {
+    width: auto;
+    margin: auto;
+  }
+  .help-section {
+    width: auto;
+    margin: auto;
+  }
+  .member-section {
+    width: auto;
+    margin: auto;
+  }
+  body > footer > div > div.footer-links > div.member-section > p {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .footer-links p {
+    margin: 0;
+  }
+  .footer-container {
+    height: 560px;
+  }
+}
+
+body > footer > div > div.social-links > div:nth-child(3) > img {
+  width: 100px;
+  text-align: center;
+}
+
+body > footer > div > div.social-links > div:nth-child(3) {
+  text-align: center;
 }
 
 /*  End Footer */
