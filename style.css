@@ -879,13 +879,6 @@ nav ul li ul li {
   font-weight: 700;
 }
 
-/* @media screen and (max-width: 1024px) {
-  .newsletter-pic,
-  .read-more-text {
-    display: none;
-  }
-} */
-
 @media screen and (max-width: 1024px) {
   .newsletter-box {
     display: inline;
@@ -945,14 +938,12 @@ nav ul li ul li {
   background-color: white;
 }
 
-/* THIS NEEDS FIXIN' */
-/* .footer-links {
+.footer-links {
   display: flex;
   height: 225px;
-  position: relative;
-  width: 100%;
-  margin: 20px 100px 0 100px;
-} */
+  margin: 0px 100px 0 100px;
+  padding-top: 20px;
+}
 
 .footer-links h3 {
   color: rgba(10, 54, 65, 1);
@@ -988,7 +979,7 @@ nav ul li ul li {
 
 @media screen and (max-width: 850px) {
   .footer-links {
-    display: inline-block;
+    display: inline;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -1008,17 +999,34 @@ nav ul li ul li {
   .member-section {
     width: auto;
     margin: auto;
+    padding-bottom: 20px;
   }
   body > footer > div > div.footer-links > div.member-section > p {
     margin-left: 30px;
     margin-right: 30px;
   }
+
   .footer-links p {
     margin: 0;
   }
   .footer-container {
     height: 560px;
   }
+}
+
+body > footer > div > div.social-links > div.social-icons {
+  text-align: center;
+}
+
+body > footer > div > div.social-links > div:nth-child(2) > p {
+  margin: 10px 0 10px 0;
+}
+
+body > footer > div > div.social-links > div:nth-child(2) {
+  text-align: center;
+  width: auto;
+  margin: 0px 100px 30px 100px;
+  font-size: 14px;
 }
 
 body > footer > div > div.social-links > div:nth-child(3) > img {
@@ -1028,6 +1036,38 @@ body > footer > div > div.social-links > div:nth-child(3) > img {
 
 body > footer > div > div.social-links > div:nth-child(3) {
   text-align: center;
+}
+
+.social-links {
+  background-color: white;
+}
+
+.social-icons img {
+  padding: 0 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-container {
+    height: 775px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer-container {
+    height: 800px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .footer-container {
+    height: 900px;
+  }
 }
 
 /*  End Footer */
