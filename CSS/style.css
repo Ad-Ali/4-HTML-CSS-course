@@ -1,3 +1,5 @@
+/* Homepage CSS */
+
 body {
   background: #f6f6f6;
   font-family: "Lato", sans-serif;
@@ -946,11 +948,12 @@ nav ul li ul li {
 }
 
 .footer-links h3 {
-  color: rgba(10, 54, 65, 1);
+  color: rgba(10, 54, 65);
 }
 
 .footer-links p {
   font-size: 15px;
+  color: rgba(10, 54, 65, 0.7);
 }
 
 .shop-section {
@@ -971,6 +974,11 @@ nav ul li ul li {
 .member-section {
   width: 25%;
   flex: 1;
+}
+
+.member-section a {
+  color: rgba(10, 54, 65, 0.7);
+  font-weight: 800;
 }
 
 .social-links {
@@ -1016,10 +1024,12 @@ nav ul li ul li {
 
 body > footer > div > div.social-links > div.social-icons {
   text-align: center;
+  opacity: 80%;
 }
 
 body > footer > div > div.social-links > div:nth-child(2) > p {
   margin: 10px 0 10px 0;
+  color: rgba(10, 54, 65, 0.5);
 }
 
 body > footer > div > div.social-links > div:nth-child(2) {
@@ -1071,3 +1081,5 @@ body > footer > div > div.social-links > div:nth-child(3) {
 }
 
 /*  End Footer */
+
+/* End Homepage CSS */
