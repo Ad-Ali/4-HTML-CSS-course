@@ -400,6 +400,51 @@ nav ul li ul li {
 
 /* End Hero */
 
+/* Hero Women's Shop */
+
+.hero-women {
+  position: relative;
+}
+
+.hero-image-women {
+  height: 22vw;
+  width: 100%;
+  background-image: url(/images/hero/matt-heaton-AWu2De0kt_s-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-description-women {
+  position: absolute;
+  bottom: 27%;
+  left: 5%;
+  color: white;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.hero-description-women-p {
+  font-weight: 900;
+  font-size: 50px;
+  position: relative;
+}
+
+.hero-description-women-menu {
+  position: absolute;
+  bottom: 7%;
+  left: 30%;
+}
+
+.hero-description-women-menu a {
+  color: white;
+}
+
+.hero-description-women-menu a span {
+  font-weight: 600;
+}
+
+/* End Hero Women's Shop */
+
 /* Women and Men jacket choice */
 
 .women-and-men-jackets {
