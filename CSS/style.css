@@ -467,6 +467,13 @@ nav ul li ul li {
   .hero-description-women-menu {
     left: 5%;
   }
+  body > main > div.shop-front {
+    display: block;
+  }
+  body > main > div.shop-front > div.shop-display,
+  body > main > div.shop-front > div.shop-sidebar {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 678px) {
@@ -746,6 +753,27 @@ nav ul li ul li {
   background: white;
 }
 
+body > main > div.shop-front > div.shop-sidebar > div > a {
+  color: #0a3641;
+}
+
+body > main > div.shop-front > div.shop-sidebar > div > h3 {
+  font-size: 20px;
+}
+
+body > main > div.shop-front > div.shop-sidebar > div {
+  position: relative;
+  left: 20%;
+}
+
+body > main > div.shop-front > div.shop-sidebar > div > h3:nth-child(1) {
+  padding-top: 12px;
+}
+
+body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
+  padding-bottom: 12px;
+}
+
 .shop-display {
   color: #0a3641;
   width: 50%;
@@ -760,6 +788,16 @@ nav ul li ul li {
   text-align: center;
   margin: 0;
   padding: 20px 0 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  body > main > div.shop-front > div.shop-sidebar > div {
+    position: relative;
+    left: 5%;
+  }
+  body > main > div.shop-front > div.shop-sidebar > div > a > p {
+    margin: 0;
+  }
 }
 
 /* End shop */
@@ -1349,3 +1387,22 @@ body > footer > div > div.social-links > div:nth-child(3) {
 /*  End Footer */
 
 /* End Homepage CSS */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: red;
+  padding: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
