@@ -793,10 +793,14 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
 @media screen and (max-width: 768px) {
   body > main > div.shop-front > div.shop-sidebar > div {
     position: relative;
-    left: 5%;
+    left: 0%;
+    text-align: center;
   }
   body > main > div.shop-front > div.shop-sidebar > div > a > p {
     margin: 0;
+  }
+  body > main > div.hero-women > div.hero-description-women-menu {
+    padding-right: 20px;
   }
 }
 
