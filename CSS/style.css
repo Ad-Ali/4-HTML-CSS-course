@@ -1886,3 +1886,17 @@ body > main > div.contact-form-container > p {
 }
 
 /* End Contact Page */
+
+/* Empty Shopping Bag */
+
+.empty-shopping-bag-text {
+  text-align: center;
+  padding: 100px 0 100px;
+  background-color: white;
+}
+
+.empty-shopping-bag-text h1 {
+  padding: 0 0 100px;
+}
+
+/* End Empty Shopping Bag */
