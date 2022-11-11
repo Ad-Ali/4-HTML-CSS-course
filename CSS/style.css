@@ -1879,4 +1879,10 @@ body > main > div:nth-child(2) > form > div.contact-form-message > label {
   width: 50%;
 }
 
+body > main > div.contact-form-container > p {
+  text-align: center;
+  margin-top: 0;
+  padding: 20px 20px 0;
+}
+
 /* End Contact Page */
