@@ -1827,7 +1827,7 @@ body > main > div.hero-men > div.hero-description-about > p {
 }
 .contact-form-info {
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-top: 0;
 }
 
@@ -1844,7 +1844,7 @@ body > main > div.hero-men > div.hero-description-about > p {
 }
 
 .contact-form-submit {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .contact-form input {
