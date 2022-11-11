@@ -1891,12 +1891,12 @@ body > main > div.contact-form-container > p {
 
 .empty-shopping-bag-text {
   text-align: center;
-  padding: 100px 0 100px;
+  padding: 10% 0 10%;
   background-color: white;
 }
 
 .empty-shopping-bag-text h1 {
-  padding: 0 0 100px;
+  padding: 0 0 10%;
 }
 
 body > main > div.empty-shopping-bag-text > p:nth-child(3) > a {
