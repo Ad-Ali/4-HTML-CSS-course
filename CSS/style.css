@@ -1899,4 +1899,9 @@ body > main > div.contact-form-container > p {
   padding: 0 0 100px;
 }
 
+body > main > div.empty-shopping-bag-text > p:nth-child(3) > a {
+  color: #0a3641;
+  font-weight: 800;
+}
+
 /* End Empty Shopping Bag */
