@@ -1919,3 +1919,30 @@ body > main > div.empty-shopping-bag-text {
 }
 
 /* End Membership page */
+
+/* Environmental-policy-text */
+
+.environmental-policy-text {
+  padding: 10% 0 10%;
+  background-color: white;
+}
+
+.environmental-policy-text h1 {
+  padding: 0 0 0%;
+}
+
+body > main > div.environmental-policy-text > p:nth-child(3) > a {
+  color: #0a3641;
+  font-weight: 800;
+}
+
+body > main > div.environmental-policy-text {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+body > main > div.environmental-policy-text > p:nth-child(2) > a {
+  color: #0a3641;
+  font-weight: 600;
+}
+/* End environmental-policy-text */
