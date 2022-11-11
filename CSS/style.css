@@ -248,6 +248,7 @@ nav ul li ul li {
 @media screen and (max-width: 9999px) {
   .hero-description-first-p {
     font-size: 49px;
+    padding-bottom: 20px;
   }
   .hero-description-second-p {
     font-size: 72px;
@@ -321,6 +322,7 @@ nav ul li ul li {
   }
   .hero-description-first-p {
     font-size: 19.6px;
+    padding-bottom: 10px;
   }
   .hero-description-second-p {
     font-size: 29px;
