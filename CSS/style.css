@@ -1946,3 +1946,172 @@ body > main > div.environmental-policy-text > p:nth-child(2) > a {
   font-weight: 600;
 }
 /* End environmental-policy-text */
+
+/* Jacket Specific Page */
+
+.jacket-container {
+  background-color: white;
+  text-align: justify;
+  padding-bottom: 50px;
+}
+.jacket-block-1,
+.jacket-block-2 {
+  display: flex;
+  background-color: white;
+  padding: 50px 100px 25px;
+  max-width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+
+.jacket-block-2 {
+  padding: 0 100px 40px 100px;
+}
+
+.jacket-block-2-p {
+  padding-left: 50px;
+}
+
+.Jacket-block-1-p {
+  padding-right: 50px;
+}
+
+.jacket-block-1-p h2,
+.jacket-block-2-p h2 {
+  margin-top: 0;
+}
+
+.jacket-picture-block {
+  padding-right: 30px;
+  text-align: center;
+}
+
+.jacket-picture-block-2 img {
+  width: 400px;
+}
+
+body > main > div.jacket-container > div > div.jacket-picture-block > img {
+  width: 450px;
+}
+
+@media screen and (max-width: 1200px) {
+  .jacket-block-1-p,
+  .jacket-block-2-p {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .jacket-block-1 {
+    padding-bottom: 0;
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    padding-top: 10px;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  body > main > div.jacket-container > div > div.jacket-picture-block > img {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  body > main > div.jacket-container > div > div.jacket-picture-block > img {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  body > main > div.jacket-container > div > div.jacket-picture-block > img {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .jacket-block-1,
+  .jacket-block-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+.jacket-nav {
+  text-align: center;
+  background-color: white;
+  padding-top: 5%;
+}
+
+.jacket-nav a {
+  color: #0a3641;
+}
+
+a.add-to-bag-button {
+  color: white;
+  font-weight: 600;
+  border: #0a3641 solid 2px;
+  padding: 5px;
+  background-color: #0a3641;
+}
+
+.jacket-block-1-p-2 {
+  padding-top: 20px;
+  max-width: 500px;
+}
+
+/* End Jacket Specific Page */
+
+body > main > div.jacket-container > div > div.jacket-picture-block-bag > img {
+  width: 200px;
+  padding-right: 50px;
+}
+
+body
+  > main
+  > div.jacket-container
+  > div
+  > div.jacket-block-1-p
+  > div.jacket-block-1-p-2-bag {
+  max-width: 300px;
+  padding-top: 20px;
+}
+
+.order-form-email {
+  padding-bottom: 20px;
+  display: block;
+}
+
+.email-order-input {
+  width: 100%;
+}
+
+#email .order-input {
+  width: 100%;
+}
