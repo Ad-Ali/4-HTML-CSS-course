@@ -1819,3 +1819,63 @@ body > main > div.hero-men > div.hero-description-about > p {
 }
 
 /* End About page */
+
+/* Contact Page */
+
+.contact-form-container {
+  background-color: white;
+}
+.contact-form-info {
+  text-align: center;
+  padding-top: 100px;
+  margin-top: 0;
+}
+
+.contact-form {
+  text-align: center;
+}
+
+.contact-form-email {
+  padding-bottom: 10px;
+}
+
+.contact-form-message {
+  padding-bottom: 10px;
+}
+
+.contact-form-submit {
+  padding-bottom: 100px;
+}
+
+.contact-form input {
+  background-color: rgb(225, 222, 216);
+  padding: 10px;
+  font-weight: 700;
+  color: rgba(10, 54, 65, 1);
+  border-color: rgba(10, 54, 65, 0.5);
+}
+
+body > main > div:nth-child(2) > form > div.contact-form-email > label {
+  display: none;
+}
+
+body > main > div:nth-child(2) > form > div.contact-form-message > label {
+  display: none;
+}
+
+.contact-form input::placeholder {
+  font-weight: 600;
+  position: relative;
+  bottom: 45%;
+}
+
+#email {
+  width: 50%;
+}
+
+#text {
+  height: 100px;
+  width: 50%;
+}
+
+/* End Contact Page */
