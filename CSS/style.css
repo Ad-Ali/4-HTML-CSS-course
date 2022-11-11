@@ -971,56 +971,84 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
 .fixed-size-pic-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/green-pocket-delux.jpg);
+  background-image: url(/images/jacket-images-women/warm-enough.png);
   margin: 0 auto;
 }
 
 .fixed-size-pic-2-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/puffy-white-waffle.jpg);
+  background-image: url(/images/jacket-images-women/horizon-grey.jpg);
   margin: 0 auto;
 }
 
 .fixed-size-pic-3-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/blue-horizon.jpg);
+  background-image: url(/images/jacket-images-women/red-mist.png);
   margin: 0 auto;
 }
 
 .fixed-size-pic-4-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/zipped-ready.jpg);
+  background-image: url(/images/jacket-images-women/lake-chic.jpg);
   margin: 0 auto;
 }
 
 .fixed-size-pic-5-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/red-rider-hood.jpg);
+  background-image: url(/images/jacket-images-women/yellow-yonder.jpg);
   margin: 0 auto;
 }
 
 .fixed-size-pic-6-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/urban-organizer.jpg);
+  background-image: url(/images/jacket-images-women/crystal-coat.png);
   margin: 0 auto;
 }
 
 .fixed-size-pic-7-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/jumping-jacker.jpg);
+  background-image: url(/images/jacket-images-women/puffy-white-waffle.png);
   margin: 0 auto;
 }
 
 .fixed-size-pic-8-shop {
   width: 250px;
   height: 300px;
-  background-image: url(/images/jacket-images/down-looker.jpg);
+  background-image: url(/images/jacket-images-women/brown-waffle.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-9-shop {
+  width: 250px;
+  height: 300px;
+  background-image: url(/images/jacket-images-women/urban-layers.png);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-10-shop {
+  width: 250px;
+  height: 300px;
+  background-image: url(/images/jacket-images-women/grey-waffle.jpg);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-11-shop {
+  width: 250px;
+  height: 300px;
+  background-image: url(/images/jacket-images-women/fur-feuxbulous.png);
+  margin: 0 auto;
+}
+
+.fixed-size-pic-12-shop {
+  width: 250px;
+  height: 300px;
+  background-image: url(/images/jacket-images-women/chill-me-not.jpg);
   margin: 0 auto;
 }
 
@@ -1057,7 +1085,7 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 1300px) {
+/* @media screen and (max-width: 1300px) {
   .fixed-size-items-shop:nth-child(8),
   .fixed-size-items-shop:nth-child(7) {
     display: none;
@@ -1082,7 +1110,7 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   .fixed-size-container-shop {
     display: none;
   }
-}
+} */
 
 /* End fixed size container SHOP */
 
