@@ -1,3 +1,8 @@
+:root {
+  background-color: #f6f6f6;
+  color: rgb(255, 255, 255);
+}
+
 body {
   background: #f6f6f6;
   font-family: "Lato", sans-serif;
@@ -6,8 +11,33 @@ body {
   color: #0a3641;
 }
 
-a {
-  text-decoration: none;
+.footer-container,
+.newsletter-box,
+.social-links,
+.text-container,
+.text-block-1,
+.text-block-2,
+.contact-form-container,
+.empty-shopping-bag-text,
+.environmental-policy-text,
+.jacket-container,
+.jacket-block-1,
+.jacket-block-2,
+.jacket-nav,
+.best-sellers-text,
+li.nav-item,
+.nav-menu,
+li.hover-menu-item,
+.nav-menu.active {
+  background-color: white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 100;
 }
 
 /* Navigation */
@@ -19,14 +49,11 @@ https://www.youtube.com/watch?v=gEbG3xyQoxA */
 
 nav {
   height: 56.8px;
-  background-color: #f6f6f6;
-  position: relative;
   z-index: 2;
 }
 
 nav ul {
   float: right;
-  background: #f6f6f6;
   list-style: none;
   margin: 0;
   padding-left: 0;
@@ -34,13 +61,10 @@ nav ul {
 }
 
 nav li {
-  color: #fff;
   background: #f6f6f6;
   display: block;
   float: left;
   padding: 1rem;
-  position: relative;
-  text-decoration: none;
   transition-duration: 0.5s;
 }
 
@@ -187,7 +211,21 @@ nav ul li ul li {
 
 /* Used this resource to figure out how to make the hero centered: https://stackoverflow.com/questions/64563675/best-method-for-making-hero-image-fill-entire-screen-on-mobile-without-ruining-q */
 
-.hero {
+.hero,
+.hero-description-second-p,
+.hero-women,
+.hero-description-women-p,
+.hero-men,
+.hero-description-men-p,
+.hero-description-about-p,
+.women-and-men-jackets,
+body > main > div.shop-front > div.shop-sidebar > div,
+.buy-button,
+.buy-button-shop,
+nav li,
+nav,
+.contact-form input::placeholder,
+.buy-button-shop {
   position: relative;
 }
 
@@ -211,7 +249,6 @@ nav ul li ul li {
 .hero-description-second-p {
   font-weight: 900;
   font-size: 28px;
-  position: relative;
   bottom: 20px;
 }
 
@@ -231,18 +268,18 @@ nav ul li ul li {
 
 .hero-CTA-button {
   font-weight: 600;
-  border: 2px solid white;
   border-radius: 2px;
   background-color: rgb(228, 228, 228);
 }
 
-.hero-CTA a {
-  text-decoration: none;
-  color: #0a3641;
+.hero-CTA-button,
+.CTA-button,
+.CTA-button-2 {
+  border: 2px solid white;
 }
 
-.hero-CTA-button:hover {
-  background-color: rgb(255, 255, 255);
+.hero-CTA a {
+  color: #0a3641;
 }
 
 @media screen and (max-width: 9999px) {
@@ -403,10 +440,6 @@ nav ul li ul li {
 
 /* Hero Women's Shop */
 
-.hero-women {
-  position: relative;
-}
-
 .hero-image-women {
   height: 22vw;
   width: 100%;
@@ -421,7 +454,6 @@ nav ul li ul li {
   position: absolute;
   bottom: 27%;
   left: 5%;
-  color: white;
   font-size: larger;
   font-weight: 500;
 }
@@ -429,17 +461,12 @@ nav ul li ul li {
 .hero-description-women-p {
   font-weight: 900;
   font-size: 50px;
-  position: relative;
 }
 
 .hero-description-women-menu {
   position: absolute;
   bottom: 7%;
   left: 30%;
-}
-
-.hero-description-women-menu a {
-  color: white;
 }
 
 .hero-description-women-menu a span {
@@ -505,10 +532,6 @@ nav ul li ul li {
 
 /* Hero Men's Shop */
 
-.hero-men {
-  position: relative;
-}
-
 .hero-image-men {
   height: 22vw;
   width: 100%;
@@ -523,7 +546,6 @@ nav ul li ul li {
   position: absolute;
   bottom: 27%;
   left: 5%;
-  color: white;
   font-size: larger;
   font-weight: 500;
 }
@@ -531,16 +553,12 @@ nav ul li ul li {
 .hero-description-men-p {
   font-weight: 900;
   font-size: 50px;
-  position: relative;
 }
 
 .hero-description-men-menu {
   position: absolute;
   bottom: 7%;
   left: 30%;
-}
-
-.hero-description-men-menu a {
   color: white;
 }
 
@@ -641,7 +659,6 @@ nav ul li ul li {
 .hero-description-about-p {
   font-weight: 900;
   font-size: 50px;
-  position: relative;
 }
 
 @media screen and (max-width: 1200px) {
@@ -695,7 +712,6 @@ nav ul li ul li {
 
 .women-and-men-jackets {
   display: flex;
-  position: relative;
   width: 100%;
 }
 
@@ -736,18 +752,12 @@ nav ul li ul li {
 
 .CTA-button {
   font-weight: 600;
-  border: 2px solid white;
   border-radius: 2px;
   background-color: rgb(228, 228, 228);
 }
 
 .CTA a {
-  text-decoration: none;
   color: #0a3641;
-}
-
-.CTA-button:hover {
-  background-color: rgb(255, 255, 255);
 }
 
 @media screen and (max-width: 9999px) {
@@ -834,11 +844,12 @@ nav ul li ul li {
 }
 
 .CTA2 a {
-  text-decoration: none;
   color: #0a3641;
 }
 
-.CTA2-button:hover {
+.hero-CTA-button:hover,
+.CTA2-button:hover,
+.CTA-button:hover {
   background-color: rgb(255, 255, 255);
 }
 
@@ -912,7 +923,6 @@ nav ul li ul li {
 /* Best Sellers */
 
 .best-sellers-text {
-  background-color: #ffffff;
   color: #0a3641;
   font-weight: 800;
   font-size: 30px;
@@ -951,7 +961,6 @@ body > main > div.shop-front > div.shop-sidebar > div > h3 {
 }
 
 body > main > div.shop-front > div.shop-sidebar > div {
-  position: relative;
   left: 20%;
 }
 
@@ -1017,60 +1026,48 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   font-size: 20px;
 }
 
-.fixed-size-pic {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/green-pocket-delux.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-2 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/puffy-white-waffle.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-3 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/blue-horizon.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-4 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/zipped-ready.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-5 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/red-rider-hood.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-6 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/urban-organizer.jpg);
-  margin: 0 auto;
-}
-
-.fixed-size-pic-7 {
-  width: 300px;
-  height: 350px;
-  background-image: url(/images/jacket-images/jumping-jacker.jpg);
-  margin: 0 auto;
-}
-
+.fixed-size-pic,
+.fixed-size-pic-2,
+.fixed-size-pic-3,
+.fixed-size-pic-4,
+.fixed-size-pic-5,
+.fixed-size-pic-6,
+.fixed-size-pic-7,
 .fixed-size-pic-8 {
   width: 300px;
   height: 350px;
-  background-image: url(/images/jacket-images/down-looker.jpg);
   margin: 0 auto;
+}
+.fixed-size-pic {
+  background-image: url(/images/jacket-images/green-pocket-delux.jpg);
+}
+
+.fixed-size-pic-2 {
+  background-image: url(/images/jacket-images/puffy-white-waffle.jpg);
+}
+
+.fixed-size-pic-3 {
+  background-image: url(/images/jacket-images/blue-horizon.jpg);
+}
+
+.fixed-size-pic-4 {
+  background-image: url(/images/jacket-images/zipped-ready.jpg);
+}
+
+.fixed-size-pic-5 {
+  background-image: url(/images/jacket-images/red-rider-hood.jpg);
+}
+
+.fixed-size-pic-6 {
+  background-image: url(/images/jacket-images/urban-organizer.jpg);
+}
+
+.fixed-size-pic-7 {
+  background-image: url(/images/jacket-images/jumping-jacker.jpg);
+}
+
+.fixed-size-pic-8 {
+  background-image: url(/images/jacket-images/down-looker.jpg);
 }
 
 .pic-text {
@@ -1092,13 +1089,10 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   border-radius: 2px;
   padding: 0px 20px 2px 20px;
   margin: 10px 10px;
-  position: relative;
   bottom: 7.5px;
-  text-decoration: none;
 }
 
 .buy-button a {
-  text-decoration: none;
   color: rgba(10, 54, 65, 0.7);
 }
 
@@ -1260,13 +1254,10 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   border-radius: 2px;
   padding: 0px 20px 2px 20px;
   margin: 10px 10px;
-  position: relative;
   bottom: 7.5px;
-  text-decoration: none;
 }
 
 .buy-button-shop a {
-  text-decoration: none;
   color: rgba(10, 54, 65, 0.7);
 }
 
@@ -1399,13 +1390,10 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   border-radius: 2px;
   padding: 0px 20px 2px 20px;
   margin: 10px 10px;
-  position: relative;
   bottom: 7.5px;
-  text-decoration: none;
 }
 
 .buy-button-shop a {
-  text-decoration: none;
   color: rgba(10, 54, 65, 0.7);
 }
 
@@ -1428,7 +1416,6 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
   width: 60%;
   justify-content: center;
   margin: auto;
-  background-color: white;
   padding: 20px 100px 0px 100px;
 }
 
@@ -1496,9 +1483,21 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
 }
 
 .bold-link {
-  text-decoration: none;
   color: rgba(10, 54, 65, 0.7);
   font-weight: 800;
+}
+
+.bold-link,
+.buy-button-shop a,
+.buy-button-shop,
+.buy-button a,
+.buy-button,
+.CTA2 a,
+.CTA a,
+.hero-CTA a,
+nav li,
+a {
+  text-decoration: none;
 }
 
 .newsletter input {
@@ -1574,7 +1573,6 @@ body > main > div.shop-front > div.shop-sidebar > div > a:nth-child(16) > p {
 
 .footer-container {
   height: 450px;
-  background-color: white;
 }
 
 .footer-links {
@@ -1685,10 +1683,6 @@ body > footer > div > div.social-links > div:nth-child(3) {
   text-align: center;
 }
 
-.social-links {
-  background-color: white;
-}
-
 .social-icons img {
   padding: 0 5px;
 }
@@ -1726,13 +1720,11 @@ body > main > div.hero-men > div.hero-description-about > p {
 }
 
 .text-container {
-  background-color: white;
   text-align: justify;
 }
 .text-block-1,
 .text-block-2 {
   display: flex;
-  background-color: white;
   padding: 100px 100px 25px;
   max-width: 1200px;
   justify-content: center;
@@ -1825,9 +1817,6 @@ body > main > div.hero-men > div.hero-description-about > p {
 
 /* Contact Page */
 
-.contact-form-container {
-  background-color: white;
-}
 .contact-form-info {
   text-align: center;
   padding-top: 50px;
@@ -1869,7 +1858,6 @@ body > main > div:nth-child(2) > form > div.contact-form-message > label {
 
 .contact-form input::placeholder {
   font-weight: 600;
-  position: relative;
   bottom: 45%;
 }
 
@@ -1895,7 +1883,6 @@ body > main > div.contact-form-container > p {
 .empty-shopping-bag-text {
   text-align: center;
   padding: 10% 0 10%;
-  background-color: white;
 }
 
 .empty-shopping-bag-text h1 {
@@ -1926,7 +1913,6 @@ body > main > div.empty-shopping-bag-text {
 
 .environmental-policy-text {
   padding: 10% 0 10%;
-  background-color: white;
 }
 
 .environmental-policy-text h1 {
@@ -1952,14 +1938,12 @@ body > main > div.environmental-policy-text > p:nth-child(2) > a {
 /* Jacket Specific Page */
 
 .jacket-container {
-  background-color: white;
   text-align: justify;
   padding-bottom: 50px;
 }
 .jacket-block-1,
 .jacket-block-2 {
   display: flex;
-  background-color: white;
   padding: 50px 100px 25px;
   max-width: 1200px;
   justify-content: center;
@@ -2067,7 +2051,6 @@ body > main > div.jacket-container > div > div.jacket-picture-block > img {
 
 .jacket-nav {
   text-align: center;
-  background-color: white;
   padding-top: 5%;
 }
 
@@ -2076,7 +2059,6 @@ body > main > div.jacket-container > div > div.jacket-picture-block > img {
 }
 
 a.add-to-bag-button {
-  color: white;
   font-weight: 600;
   border: #0a3641 solid 2px;
   padding: 5px;
@@ -2110,6 +2092,14 @@ body
   display: block;
 }
 
-.email-order-input {
+.email-order-input,
+header {
   width: 100%;
+}
+
+.hero-description-men-menu a,
+.hero-description-men,
+.hero-description-women,
+.hero-description-women-menu a {
+  color: white;
 }
