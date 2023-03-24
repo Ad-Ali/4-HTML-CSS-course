@@ -290,6 +290,29 @@
 }
 
 @media screen and (max-width: 850px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #e7eaea;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
   .footer-links {
     display: inline;
     text-align: center;
@@ -327,34 +350,6 @@
 }
 
 @media (max-width: 767px) {
-  .hamburger {
-    display: block;
-  }
-  .hamburger.active .bar:nth-child(2) {
-    opacity: 0;
-  }
-  .hamburger.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-  }
-  .hamburger.active .bar:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-  }
-  .nav-menu {
-    position: fixed;
-    right: -100%;
-    top: 70px;
-    gap: 0;
-    flex-direction: column;
-    background-color: #e7eaea;
-    width: 100%;
-    text-align: center;
-    transition: 0.3s;
-  }
-  .hover-menu-item {
-    visibility: hidden;
-    width: 0;
-    height: 0;
-  }
   body > main > div.shop-front > div.shop-sidebar > div {
     position: relative;
     left: 0%;
