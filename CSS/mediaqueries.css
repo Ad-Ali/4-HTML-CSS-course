@@ -344,6 +344,18 @@
   .jacket-block-2 {
     display: block;
   }
+  body
+    > main
+    > div.jacket-container
+    > div
+    > div.jacket-picture-block-bag
+    > img {
+    width: 60vw;
+    margin: 0;
+  }
+  .jacket-picture-block-bag {
+    text-align: center;
+  }
 }
 
 @media (max-width: 767px) {

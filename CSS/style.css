@@ -1259,6 +1259,10 @@ body > main > div.environmental-policy-text > p:nth-child(2) > a {
   padding-bottom: 50px;
 }
 
+.jacket-block-1 {
+  text-align: center;
+}
+
 .jacket-block-1,
 .jacket-block-2 {
   padding: 50px 100px 25px;
@@ -1275,17 +1279,12 @@ body > main > div.environmental-policy-text > p:nth-child(2) > a {
   padding-left: 50px;
 }
 
-.Jacket-block-1-p {
-  padding-right: 50px;
-}
-
 .jacket-block-1-p h2,
 .jacket-block-2-p h2 {
   margin-top: 0;
 }
 
 .jacket-picture-block {
-  padding-right: 30px;
   text-align: center;
 }
 
@@ -1317,8 +1316,13 @@ a.add-to-bag-button {
 /* End Jacket Specific Page */
 
 body > main > div.jacket-container > div > div.jacket-picture-block-bag > img {
-  width: 200px;
-  padding-right: 50px;
+  width: 40vw;
+  margin-right: 50px;
+  border-radius: 1rem;
+}
+
+.jacket-block-1-p-2-bag {
+  margin: 0 auto;
 }
 
 body
