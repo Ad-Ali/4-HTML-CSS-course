@@ -76,14 +76,14 @@
       </div>
       <div class="contact-form-container">
         <h1 class="contact-form-info">Please fill out the form below</h1>
-        <form action="contact-success-input.html" method="get" class="contact-form">
+        <form name="form" action="contact-success-input.html" class="contact-form" onsubmit="return validateForm()" method="get" >
             <div class="contact-form-email">
               <label for="email">Email</label>
               <input type="email" placeholder="Email" name="email" id="contact-form-email" required>
             </div>
             <div class="contact-form-message">
                 <label for="text">Message</label>
-                <input placeholder="Message" type="text" name="text" id="text" required>
+                <input placeholder="Message" type="text" name="message" id="text" required>
               </div>
             <div class="contact-form-submit">
               <input type="submit" value="Submit!">
@@ -188,5 +188,6 @@
       </div>
     </footer>
     <script src="/JavaScript/script.js"></script>
+    <script src="/JavaScript/contactFormValidation.js"></script>
   </body>
 </html>
