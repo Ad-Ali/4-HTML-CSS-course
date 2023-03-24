@@ -197,9 +197,11 @@
   body > main > div.shop-front {
     display: block;
   }
-  body > main > div.shop-front > div.shop-display,
-  body > main > div.shop-front > div.shop-sidebar {
+  body > main > div.shop-front > div.shop-display {
     width: 100%;
+  }
+  body > main > div.shop-front > div.shop-sidebar {
+    display: none;
   }
 }
 
