@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="/CSS/mediaqueries.css" />
     <!-- Hotjar Tracking Code for my site -->
     <script>
       (function (h, o, t, j, a, r) {
@@ -45,9 +46,13 @@
           <li class="nav-item">
             <a href="/HTML/shop-new-collection.html" class="nav-link">Shop</a>
             <ul class="hover-menu">
-              <li class="hover-menu-item"><a href="shop-women.html">Women</a></li>
+              <li class="hover-menu-item">
+                <a href="shop-women.html">Women</a>
+              </li>
               <li class="hover-menu-item"><a href="shop-men.html">Men</a></li>
-              <li class="hover-menu-item"><a href="shop-new-collection.html">New Collection</a></li>
+              <li class="hover-menu-item">
+                <a href="shop-new-collection.html">New Collection</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
@@ -70,40 +75,73 @@
     <main>
       <div class="jacket-container">
         <div class="jacket-block-1">
-            <div class="jacket-picture-block-bag">
-                <img src="/images/jacket-images/Specific-jacket.jpg" alt="The jacket you clicked on.">
-            </div>
-            <div class="jacket-block-1-p">
-                <div class="jacket-block-1-p-1">
-                    <h1>That jacket you picked</h1>
-                    <h2>176 &euro;</h2>
-                    <form action="order-successful.html" method="get" class="order-form">
-                      <div class="order-form-email">
-                        <label for="email-order-input">Email</label>
-                        <input class="email-order-input" type="email" name="email" id="email" required>
-                      </div>
-                        <div class="order-form-email">
-                        <label for="first-name">First name</label>
-                        <input type="first-name" name="first-name" id="first-name" required>
-                      </div>
-                        <div class="order-form-email">
-                        <label for="last-name">Last name</label>
-                        <input type="last-name" name="last-name" id="last-name" required>
-                      </div>
-                        <div class="order-form-email">
-                        <label for="first-name">Billing address</label>
-                        <input type="first-name" name="first-name" id="first-name" required>
-                      </div>
-                      <div class="add-to-bag-button">
-                        <input type="submit" value="Comfirm Order!">
-                      </div>
-                    </form>
+          <div class="jacket-picture-block-bag">
+            <img
+              src="/images/jacket-images/Specific-jacket.jpg"
+              alt="The jacket you clicked on."
+            />
+          </div>
+          <div class="jacket-block-1-p">
+            <div class="jacket-block-1-p-1">
+              <h1>That jacket you picked</h1>
+              <h2>176 &euro;</h2>
+              <form
+                action="order-successful.html"
+                method="get"
+                class="order-form"
+              >
+                <div class="order-form-email">
+                  <label for="email-order-input">Email</label>
+                  <input
+                    class="email-order-input"
+                    type="email"
+                    name="email"
+                    id="email"
+                    required
+                  />
                 </div>
-                <div class="jacket-block-1-p-2-bag">
-                    <h2>Order Details</h2>
-                    <p>Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla. Auctor urna nunc id cursus metus. Dolor magna eget est lorem ipsum dolor sit amet consectetur. Est ullamcorper eget nulla facilisi.</p>
+                <div class="order-form-email">
+                  <label for="first-name">First name</label>
+                  <input
+                    type="first-name"
+                    name="first-name"
+                    id="first-name"
+                    required
+                  />
                 </div>
+                <div class="order-form-email">
+                  <label for="last-name">Last name</label>
+                  <input
+                    type="last-name"
+                    name="last-name"
+                    id="last-name"
+                    required
+                  />
+                </div>
+                <div class="order-form-email">
+                  <label for="first-name">Billing address</label>
+                  <input
+                    type="first-name"
+                    name="first-name"
+                    id="first-name"
+                    required
+                  />
+                </div>
+                <div class="add-to-bag-button">
+                  <input type="submit" value="Comfirm Order!" />
+                </div>
+              </form>
             </div>
+            <div class="jacket-block-1-p-2-bag">
+              <h2>Order Details</h2>
+              <p>
+                Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam
+                nulla. Auctor urna nunc id cursus metus. Dolor magna eget est
+                lorem ipsum dolor sit amet consectetur. Est ullamcorper eget
+                nulla facilisi.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       <div class="newsletter">
@@ -135,7 +173,7 @@
               placeholder="Email"
               required="required"
             />
-            <input type="submit" value="Sign up"/>
+            <input type="submit" value="Sign up" />
           </form>
           <div class="read-more-text">
             <p>
@@ -178,20 +216,32 @@
         </div>
         <div class="social-links">
           <div class="social-icons">
-            <a href="https://www.facebook.com/" target="_blank"><img src="/images/site-icons/facebook.png" alt="facebook-icon" /></a>
-            <a href="https://twitter.com/" target="_blank"><img src="/images/site-icons/twitter.png" alt="twitter-icon" /></a>
-            <a href="https://www.linkedin.com/" target="_blank"><img src="/images/site-icons/linkedin.png" alt="linkedin-icon" /></a>
-            <a href="https://www.youtube.com/" target="_blank"><img src="/images/site-icons/youtube.png" alt="youtube-icon" /></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="/images/site-icons/instagram.png" alt="instagram-icon" /></a>
-            <a href="https://www.pinterest.com/" target="_blank"><img src="/images/site-icons/pinterest.png" alt="pinterest-icon" /></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="/images/site-icons/facebook.png" alt="facebook-icon"
+            /></a>
+            <a href="https://twitter.com/" target="_blank"
+              ><img src="/images/site-icons/twitter.png" alt="twitter-icon"
+            /></a>
+            <a href="https://www.linkedin.com/" target="_blank"
+              ><img src="/images/site-icons/linkedin.png" alt="linkedin-icon"
+            /></a>
+            <a href="https://www.youtube.com/" target="_blank"
+              ><img src="/images/site-icons/youtube.png" alt="youtube-icon"
+            /></a>
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="/images/site-icons/instagram.png" alt="instagram-icon"
+            /></a>
+            <a href="https://www.pinterest.com/" target="_blank"
+              ><img src="/images/site-icons/pinterest.png" alt="pinterest-icon"
+            /></a>
           </div>
           <div>
             <p>
               The content of this site is intended as a design project by Ademir
               Alijagic.
-              <p>Hello world! And there we go, thats about enough text here.</p>
-              <p>All rights reserved © Rainydays 2022</p>
             </p>
+            <p>Hello world! And there we go, thats about enough text here.</p>
+            <p>All rights reserved © Rainydays 2022</p>
           </div>
           <div>
             <img
