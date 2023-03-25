@@ -1307,6 +1307,8 @@ a.add-to-bag-button:hover {
 }
 
 a.add-to-bag-button {
+  position: relative;
+  z-index: 100;
   font-weight: 600;
   border: #0a3641 solid 2px;
   padding: 5px;
@@ -1396,7 +1398,7 @@ body
 /* CART */
 
 #cart {
-  z-index: 100;
+  z-index: 140;
   opacity: 0;
   position: fixed;
   bottom: 20px;
@@ -1428,6 +1430,7 @@ body
 }
 
 #inner-cart {
+  z-index: 120;
   overflow-y: scroll;
   opacity: 0;
   position: fixed;

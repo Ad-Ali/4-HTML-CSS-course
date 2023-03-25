@@ -6,14 +6,6 @@ const jacketTitle = document.querySelector(".jacket-title");
 const jacketPrice = document.querySelector(".jacket-price");
 const bag = [];
 
-const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-
-if (isMobile) {
-  addToBagButton.addEventListener("touchstart", addToBag);
-} else {
-  addToBagButton.addEventListener("click", addToBag);
-}
-
 function addToBag() {
   const jacket = document.querySelector(".jacket-picture-block img");
   const jacketSrc = jacket.src;
@@ -23,7 +15,24 @@ function addToBag() {
   console.log(bag);
 }
 
+// Add both click and touchstart events to the button
+addToBagButton.addEventListener("click", addToBag);
+addToBagButton.addEventListener("touchstart", addToBag);
+
+// Add both click and touchstart events to the cart
 cart.addEventListener("click", () => {
+  switch (innerCart.style.opacity) {
+    case (innerCart.style.opacity = "0"):
+      innerCart.style.opacity = "100";
+      break;
+    case (innerCart.style.opacity = "100"):
+      innerCart.style.opacity = "0";
+      break;
+    default:
+      break;
+  }
+});
+cart.addEventListener("touchstart", () => {
   switch (innerCart.style.opacity) {
     case (innerCart.style.opacity = "0"):
       innerCart.style.opacity = "100";
