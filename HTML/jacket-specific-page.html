@@ -70,6 +70,14 @@
       </nav>
     </header>
     <main>
+      <div id="cart">
+        <img
+          src="/images/site-icons/shopping-bag.png"
+          alt="shopping bag icon"
+        />
+        <p id="cart-count">0</p>
+      </div>
+      <div id="inner-cart"></div>
       <div class="jacket-nav">
         <a href="/index.html">Home </a
         ><a href="shop-new-collection.html">/ Shop </a
@@ -85,11 +93,9 @@
           </div>
           <div class="jacket-block-1-p">
             <div class="jacket-block-1-p-1">
-              <h1>That jacket you picked</h1>
-              <h2>176 &euro;</h2>
-              <a href="/HTML/shopping-bag-item.html" class="add-to-bag-button"
-                >Add to bag</a
-              >
+              <h1 class="jacket-title">That jacket you picked</h1>
+              <h2 class="jacket-price">176 &euro;</h2>
+              <a class="add-to-bag-button">Add to bag</a>
             </div>
             <div class="jacket-block-1-p-2">
               <h2>Description</h2>
@@ -97,11 +103,7 @@
                 Tellus rutrum tellus pellentesque eu tincidunt tortor aliquam
                 nulla. Auctor urna nunc id cursus metus. Dolor magna eget est
                 lorem ipsum dolor sit amet consectetur. Est ullamcorper eget
-                nulla facilisi. Sed velit dignissim sodales ut. Elit scelerisque
-                mauris pellentesque pulvinar pellentesque. Non blandit massa
-                enim nec dui nunc mattis enim. Ut faucibus pulvinar elementum
-                integer enim neque. Interdum consectetur libero id faucibus
-                nisl.
+                nulla facilisi.
               </p>
             </div>
           </div>
@@ -211,5 +213,6 @@
       </div>
     </footer>
     <script src="/JavaScript/script.js"></script>
+    <script src="/JavaScript/shoppingCart.js"></script>
   </body>
 </html>

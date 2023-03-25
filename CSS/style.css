@@ -1301,11 +1301,17 @@ body > main > div.jacket-container > div > div.jacket-picture-block > img {
   padding-top: 5%;
 }
 
+a.add-to-bag-button:hover {
+  cursor: pointer;
+  user-select: none;
+}
+
 a.add-to-bag-button {
   font-weight: 600;
   border: #0a3641 solid 2px;
   padding: 5px;
   background-color: #ffffff;
+  border-radius: 0.3rem;
 }
 
 .jacket-block-1-p-2 {
@@ -1387,6 +1393,69 @@ body
   font-weight: 600;
 }
 
-/* MEDIA QUERIES */
+/* CART */
 
-/* @import url("/CSS/mediaqueries.css"); */
+#cart {
+  z-index: 100;
+  opacity: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  background: white;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  background-position: center;
+  background-size: contain;
+}
+
+#cart img {
+  margin: auto;
+  margin-top: 7px;
+  height: 50px;
+  width: 50px;
+}
+
+#cart-count {
+  position: absolute;
+  margin-top: 26px;
+  font-weight: 600;
+}
+
+#inner-cart {
+  overflow-y: scroll;
+  opacity: 0;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 400px;
+  width: 300px;
+  border: 2px solid black;
+  background: white;
+  border-radius: 0.5rem;
+  padding: 20px;
+}
+
+#inner-cart li {
+  list-style: decimal;
+  display: flex;
+  gap: 15px;
+}
+
+#inner-cart img {
+  height: 40px;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 0.5rem;
+}
+
+#cross {
+  z-index: 120;
+  height: 50px;
+  width: 50px;
+  margin-left: 260px;
+}
