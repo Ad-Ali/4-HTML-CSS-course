@@ -1444,6 +1444,12 @@ body
   padding: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  #inner-cart {
+    height: 100px;
+  }
+}
+
 #inner-cart li {
   list-style: decimal;
   display: flex;
