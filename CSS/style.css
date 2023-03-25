@@ -1335,8 +1335,15 @@ body
   padding-top: 20px;
 }
 
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  box-sizing: border-box;
+}
 .order-form-email {
   padding-bottom: 20px;
+  width: 100%;
 }
 
 .hero-description-men-menu a,
