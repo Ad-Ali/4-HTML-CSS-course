@@ -6,33 +6,16 @@ const jacketTitle = document.querySelector(".jacket-title");
 const jacketPrice = document.querySelector(".jacket-price");
 const bag = [];
 
-function addToBag() {
+addToBagButton.addEventListener("click", () => {
   const jacket = document.querySelector(".jacket-picture-block img");
   const jacketSrc = jacket.src;
   bag.push(jacketSrc);
   updateCartUI();
   cart.style.opacity = "100";
   console.log(bag);
-}
-
-// Add both click and touchstart events to the button
-addToBagButton.addEventListener("click", addToBag);
-addToBagButton.addEventListener("touchstart", addToBag);
-
-// Add both click and touchstart events to the cart
-cart.addEventListener("click", () => {
-  switch (innerCart.style.opacity) {
-    case (innerCart.style.opacity = "0"):
-      innerCart.style.opacity = "100";
-      break;
-    case (innerCart.style.opacity = "100"):
-      innerCart.style.opacity = "0";
-      break;
-    default:
-      break;
-  }
 });
-cart.addEventListener("touchstart", () => {
+
+cart.addEventListener("click", () => {
   switch (innerCart.style.opacity) {
     case (innerCart.style.opacity = "0"):
       innerCart.style.opacity = "100";
