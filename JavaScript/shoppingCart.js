@@ -6,7 +6,7 @@ const jacketTitle = document.querySelector(".jacket-title");
 const jacketPrice = document.querySelector(".jacket-price");
 const bag = [];
 
-addToBagButton.addEventListener("click", () => {
+addToBagButton.addEventListener("touchstart click", () => {
   const jacket = document.querySelector(".jacket-picture-block img");
   const jacketSrc = jacket.src;
   bag.push(jacketSrc);
@@ -14,6 +14,8 @@ addToBagButton.addEventListener("click", () => {
   cart.style.opacity = "100";
   console.log(bag);
 });
+
+// .on('touchstart click'
 
 cart.addEventListener("click", () => {
   switch (innerCart.style.opacity) {
