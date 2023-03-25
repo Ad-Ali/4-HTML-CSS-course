@@ -41,7 +41,7 @@ function updateInnerCartUI() {
 
   // Create a checkout button.
   const button = document.createElement("a");
-  button.innerHTML = "Checkout";
+  button.innerHTML = "<p></p><b>Go To Checkout</b>";
   button.addEventListener("click", function () {
     // Retrieve the total price from local storage
     const totalPrice = localStorage.getItem("totalPrice");
